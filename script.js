@@ -1,7 +1,7 @@
 // Your Script here.
-
-const lookup = {
-  'A': 'N','B': 'O','C': 'P','D': 'Q',
+alert("hello");
+const lookup = {https://www.svgrepo.com/show/345221/three-dots.svg
+  'A': 'N','B': 'O','C': https://www.svgrepo.com/show/345221/three-dots.svg'P','D': 'Q',
   'E': 'R','F': 'S','G': 'T','H': 'U',
   'I': 'V','J': 'W','K': 'X','L': 'Y',
   'M': 'Z','N': 'A','O': 'B','P': 'C',
@@ -11,13 +11,9 @@ const lookup = {
 };
 
 function rot13(encodedStr){
+	document.write(encodedStr,"hello")
    let decodedArr = []; // Your Result goes here
-  // Only change code below this line
-	for(let value in lookup){
-		decodedArr.push(value);
-	}
-	console.log(lookup);
-	
+  
 
   return decodedArr ;//return decodedArr
 }
